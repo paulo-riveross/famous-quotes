@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="shortcut icon" href="assets/p.svg" type="image/x-icon">
+  <title>Famous Quotes | Discover a New Quote Each Visit</title>
+  <meta name="description" content="A simple page that displays a random inspirational quote every time you visit. Get inspired with quotes from renowned authors." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main>
+    <section class="quote-container" aria-live="polite" aria-atomic="true">
+      <blockquote id="quote" class="quote-text">Loading quote...</blockquote>
+      <cite id="author" class="quote-author"></cite>
+    </section>
+  </main>
+
+  <script src="scripts/fetch.js" defer></script>
+</body>
+</html>
